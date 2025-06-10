@@ -2,7 +2,7 @@ import os
 import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 # Enable logging
 logging.basicConfig(
